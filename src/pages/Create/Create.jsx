@@ -1,3 +1,4 @@
+import { KeyboardArrowRight } from "@mui/icons-material";
 import { Button, Container, Typography } from "@mui/material";
 
 const Create = () => {
@@ -20,6 +21,7 @@ const Create = () => {
                 type="submit"
                 variant="contained"
                 color="secondary"
+                endIcon={<KeyboardArrowRight />}
             >Create</Button>
         </Container>
     );
